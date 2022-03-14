@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello! I'm Arseniy</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <section class="heroes">
+        <div class="heroes__container container">
+            <div class="heroes__panel">
+                <img class="heroes__image" src="img/selfie.jpg" alt="This is me">
+                <div class="heroes__description">
+                    <h1 class="heroes__header">Hi, I'm Arseniy Klinichev</h1>
+                    <p class="heroes__paragraph">I'm interested in web development, UX/UI design in particular and
+                        design in general. And also I like maps, languages and visual art.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="channel">
+        <div class="channel__container container">
+            <div class="channel__panel">
+                <div class="channel__slider">
+                    <img class="channel__screenshot" src="img/youtube.jpg" alt="Encyklop">
+                </div>
+                <div class="channel__description">
+                    <h2 class="heroes__header">Encyklop (Энциклоп)</h2>
+                    <p class="heroes__paragraph">Encyklop is a Russian-language YouTube channel with 300K+ subscribers.
+                        This is a collection of my videos on different educational topics but the main topic is
+                        linguistics. Priceless information about Welsh, Yakut, Arabic, German, Japanese, Tatar and a lot
+                        of other languages all over the world... But also - a lot of videos about history and geography.
+                    </p>
+                </div>
+            </div>
+            <a href="#">Link to my channel</a>
+        </div>
+    </section>
+
+    <section class="projects">
+        <div class="projects__container container">
+            <h2 class="projects__header">My Projects</h2>
+            <div class="projects__panel">
+                <ul class="projects__list">
+                    <li class="projects__item project">
+                        <div class="project__card">
+                            <img class="project__image">
+                            <h3 class="project__name">Name the closest city</h3>
+                            <p class="project__description">The simplest version of this game implies that you name the
+                                city that begins with the last letter of the last mentioned city (i.e. Antwerp - Paris -
+                                Saratov). Here's the twist: you should name the closest city to win this particular
+                                game. Don't walk too far away!</p>
+                        </div>
+                    </li>
+                    <li class="projects__item project">
+                        <div class="project__card">
+                            <img class="project__image">
+                            <h3 class="project__name">Guess the satellite image</h3>
+                            <p class="project__description">You have a satellite image and you have to guess the city.
+                                Sounds easy but very hard to actually guess...</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="contacts">
+        <div class="contacts__container container">
+            <h2 class="contacts__header">Contact Me</h2>
+            <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="contacts__form form">
+                <fieldset class="form__fieldset">
+                    <input type="text" name="name" placeholder="Name*" required
+                        class="form__field form__field_text">
+                    <input type="email" name="email" placeholder="E-mail*" required
+                        class="form__field form__field_text">
+                    <textarea placeholder="Message" class="form__field form__field_textarea"></textarea>
+                </fieldset>
+                <fieldset class="form__fieldset form__fieldset_buttonset">
+                    <input type="submit" value="Send" class="form__button button">
+                    <div class="form__checkbox form-checkbox">
+                        <input type="checkbox" id="terms" checked class="form-checkbox__input">
+                        <label for="terms" class="form-checkbox__label">Personal data processing agreement</label>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </footer>
+
+</body>
+
+</html>
