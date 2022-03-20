@@ -39,9 +39,9 @@
                         linguistics. Priceless information about Welsh, Yakut, Arabic, German, Japanese, Tatar and a lot
                         of other languages all over the world... But also - a lot of videos about history and geography.
                     </p>
+                    <a class="channel__link" href="#">Link to my channel</a>
                 </div>
             </div>
-            <a class="channel__link" href="#">Link to my channel</a>
         </div>
     </section>
 
@@ -52,7 +52,7 @@
                 <ul class="projects__list">
                     <li class="projects__item project">
                         <div class="project__card">
-                            <img class="project__image">
+                            <img class="project__image" src="img/project_1.png">
                             <h3 class="project__name">Name the closest city</h3>
                             <p class="project__description">The simplest version of this game implies that you name the
                                 city that begins with the last letter of the last mentioned city (i.e. Antwerp - Paris -
@@ -62,7 +62,7 @@
                     </li>
                     <li class="projects__item project">
                         <div class="project__card">
-                            <img class="project__image">
+                            <img class="project__image" src="img/project_2.png">
                             <h3 class="project__name">Guess the satellite image</h3>
                             <p class="project__description">You have a satellite image and you have to guess the city.
                                 Sounds easy but very hard to actually guess...</p>
@@ -77,14 +77,16 @@
         <div class="contacts__container container">
             <h2 class="contacts__header">Contact Me</h2>
             <form action="https://jsonplaceholder.typicode.com/posts" method="POST" class="contacts__form form">
-                <fieldset class="form__fieldset">
+                <fieldset class="form__fieldset form__fieldset">
                     <input type="text" name="name" placeholder="Name*" required
                         class="form__field form__field_text">
                     <input type="email" name="email" placeholder="E-mail*" required
                         class="form__field form__field_text">
+                </fieldset>
+                <fieldset class="form__fieldset form__fieldset">
                     <textarea placeholder="Message" class="form__field form__field_textarea"></textarea>
                 </fieldset>
-                <fieldset class="form__fieldset form__fieldset_buttonset">
+                <fieldset class="form__fieldset form__fieldset">
                     <input type="submit" value="Send" class="form__button button">
                     <div class="form__checkbox form-checkbox">
                         <input type="checkbox" id="terms" checked class="form-checkbox__input">
