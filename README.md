@@ -1,8 +1,6 @@
 ### Hi there 👋
 
-My name is Arseniy Klinichev, I'm from Khimki, Russia. It's a very weird and scary period for my country but I try to move forward nevertheless dedicating my time and energy to the things I really like. And I highly appreciate when websites are comfortable and pleasant so my goal is to make your web experience comfortable and pleasant as well.
-
-Feel free to ask me about anything!
+My name is Arseniy Klinichev, I'm from Khimki, Russia.
 
 <!--
 **klinichev/klinichev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
