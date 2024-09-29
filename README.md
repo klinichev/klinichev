@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-My name is Arseniy Klinichev, I'm from Khimki, Russia.
+My name is Arsenii Klinichev, I'm from Khimki, Russia.
 
 <!--
 **klinichev/klinichev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
