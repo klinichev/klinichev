@@ -1,6 +1,8 @@
 ### Hi there 👋
 
-My name is Arsenii Klinichev, I'm from Khimki, Russia.
+I'm Arsenii Klinichev. I like two things: creating cool stuff and learning languages. And I'm currently trying to connect these two passions by creating several apps for language learners.
+
+I have a [personal website](https://encyklop.com/) and a [YouTube channel](https://www.youtube.com/@encyklop) where I share what I learn about the world.
 
 <!--
 **klinichev/klinichev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
